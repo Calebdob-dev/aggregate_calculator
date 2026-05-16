@@ -1,3 +1,4 @@
+import 'package:aggregate_calculation/agg_calc.dart';
 import 'package:flutter/material.dart';
 
 void main () {
@@ -12,6 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Aggregate Calculation',
       debugShowCheckedModeBanner: false,
+      home: AggScreen(),
     );
   }
 }
